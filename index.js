@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://pcchat-app.netlify.app/'  // ✅ Replace with your real Netlify URL
+  'https://pcchat-app.netlify.app'  // ✅ Replace with your real Netlify URL
 ];
 
 app.use(
